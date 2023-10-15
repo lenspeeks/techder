@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalam:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap");
 * {
   margin: 0px;
 }
@@ -12,14 +13,26 @@
 }
 
 header {
-  padding: 2rem;
   color: white;
   background-image: url(./assets/AlvinsBanner.png);
   height: 250px;
-  text-align: center;
+  padding: 2rem;
 }
 header h1 {
+  text-align: center;
   padding-top: 7%;
+}
+header h2 {
+  text-align: center;
+}
+header a {
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 10px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700px;
 }
 
 .collection {
@@ -29,26 +42,46 @@ header h1 {
 }
 .collection .climate {
   font-family: "Kalam", cursive;
-  background-color: green;
+  background-image: url(./assets/nature.jpeg);
   color: white;
+  border-radius: 1rem;
+}
+.collection .climate .glass {
   padding: 1rem;
   border-radius: 1rem;
-  opacity: 30%;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
 }
-.collection .climate:hover {
-  opacity: 100%;
-  transition: 0.4s ease;
+.collection .climate .glass:hover {
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  transition: 0.7s ease;
 }
 .collection .surveillance {
   font-family: "Handjet", sans-serif;
   background-color: black;
-  color: rgb(233, 6, 233);
+  color: rgb(0, 157, 0);
   padding: 1rem;
   border-radius: 1rem;
   font-size: 20px;
-  opacity: 30%;
 }
-.collection .surveillance:hover {
-  opacity: 100%;
-  transition: 0.4s ease;
+.collection .social {
+  border-radius: 1rem;
+  background-image: url(/assets/social.jpeg);
+  font-family: "Teko", sans-serif;
+  font-weight: 500px;
+  font-size: 18px;
+}
+.collection .social .glass {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+}
+.collection .social .glass:hover {
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  transition: 0.7s ease;
 }/*# sourceMappingURL=style.css.map */
