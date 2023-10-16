@@ -32,9 +32,25 @@ header {
         font-weight: 700px;
     }
 }
+footer {
+    background-image: url(./assets/AlvinsBanner.png);
+    height: 60px;
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    .glass {
+        background-color: rgba(255, 255, 255, 0.036);
+        backdrop-filter: blur(10px);
+        height: 60px;
+        text-align: center;
+        p {
+            padding-top: 1.5%;
+            font-weight: 700;
+        }
+    }
+}
 
 .collection {
-    padding: 2rem;
+    padding: 5rem;
     display: flex;
     justify-content: space-between;
     .climate {
@@ -42,16 +58,11 @@ header {
         background-image: url(./assets/nature.jpeg);
         color: white;
         border-radius: 1rem;
-        
         .glass {
             padding: 1rem;
             border-radius: 1rem;
             background-color: rgba(255, 255, 255, 0);
-            backdrop-filter: blur(15px);
-        }
-        .glass:hover {
             backdrop-filter: blur(5px);
-            transition: .7s ease;
         }
     }
     .surveillance {
@@ -64,7 +75,7 @@ header {
     }
     .social {
         border-radius: 1rem;
-        background-image: url(/assets/social.jpeg);
+        background-image: url(./assets/social.jpeg);
         font-family: 'Teko', sans-serif;
         font-weight: 500px;
         font-size: 18px;
@@ -72,11 +83,13 @@ header {
             padding: 1rem;
             border-radius: 1rem;
             background-color: rgba(255, 255, 255, 0);
-            backdrop-filter: blur(15px);
-        }
-        .glass:hover {
             backdrop-filter: blur(10px);
-            transition: .7s ease;
         }
+    }
+    .lost {
+        border-radius: 1rem;
+        background-color: rgb(165, 165, 165);
+        padding: 1rem;
+        font-size: larger;
     }
 }

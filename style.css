@@ -35,8 +35,26 @@ header a {
   font-weight: 700px;
 }
 
+footer {
+  background-image: url(./assets/AlvinsBanner.png);
+  height: 60px;
+  color: white;
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+footer .glass {
+  background-color: rgba(255, 255, 255, 0.036);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  height: 60px;
+  text-align: center;
+}
+footer .glass p {
+  padding-top: 1.5%;
+  font-weight: 700;
+}
+
 .collection {
-  padding: 2rem;
+  padding: 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -50,13 +68,8 @@ header a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0);
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
-}
-.collection .climate .glass:hover {
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
-  transition: 0.7s ease;
 }
 .collection .surveillance {
   font-family: "Handjet", sans-serif;
@@ -68,7 +81,7 @@ header a {
 }
 .collection .social {
   border-radius: 1rem;
-  background-image: url(/assets/social.jpeg);
+  background-image: url(./assets/social.jpeg);
   font-family: "Teko", sans-serif;
   font-weight: 500px;
   font-size: 18px;
@@ -77,11 +90,12 @@ header a {
   padding: 1rem;
   border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0);
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
-}
-.collection .social .glass:hover {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
-  transition: 0.7s ease;
+}
+.collection .lost {
+  border-radius: 1rem;
+  background-color: rgb(165, 165, 165);
+  padding: 1rem;
+  font-size: larger;
 }/*# sourceMappingURL=style.css.map */
