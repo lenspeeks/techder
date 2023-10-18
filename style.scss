@@ -15,6 +15,12 @@ header {
     background-image: url(./assets/AlvinsBanner.png);
     height: 250px;
     padding: 2rem;
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 3rem;
+    }
     h1 {
         text-align: center;
         padding-top: 7%;
