@@ -60,7 +60,6 @@ footer .glass p {
 }
 
 .collection {
-  padding: 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -68,40 +67,48 @@ footer .glass p {
   font-family: "Kalam", cursive;
   background-image: url(./assets/nature.jpeg);
   color: white;
-  border-radius: 1rem;
+  width: 33%;
 }
 .collection .climate .glass {
   padding: 1rem;
-  border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0);
   -webkit-backdrop-filter: blur(5px);
           backdrop-filter: blur(5px);
+  height: 428px;
+  text-align: center;
 }
 .collection .surveillance {
   font-family: "Handjet", sans-serif;
   background-color: black;
   color: rgb(0, 157, 0);
   padding: 1rem;
-  border-radius: 1rem;
   font-size: 20px;
+  width: 33%;
+  text-align: center;
 }
 .collection .social {
-  border-radius: 1rem;
   background-image: url(./assets/social.jpeg);
   font-family: "Teko", sans-serif;
   font-weight: 500px;
   font-size: 18px;
+  width: 33%;
+  text-align: center;
 }
 .collection .social .glass {
   padding: 1rem;
-  border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0);
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
+  height: 428px;
 }
 .collection .lost {
-  border-radius: 1rem;
   background-color: rgb(165, 165, 165);
   padding: 1rem;
   font-size: larger;
+  width: 33%;
+  text-align: center;
+}
+.collection .harmony {
+  text-align: center;
+  padding: 1rem;
 }/*# sourceMappingURL=style.css.map */
