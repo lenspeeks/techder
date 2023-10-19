@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalam:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
 
 * {
     margin: 0px;
@@ -20,6 +23,8 @@ header {
         justify-content: center;
         list-style: none;
         gap: 3rem;
+        padding: 0;
+        margin: 0;
     }
     h1 {
         text-align: center;
@@ -58,17 +63,23 @@ footer {
 .collection {
     display: flex;
     justify-content: space-between;
+    padding: 3rem;
     .climate {
         font-family: 'Kalam', cursive;
         background-image: url(./assets/nature.jpeg);
         color: white;
-        width: 33%;
+        width: 25%;
+        border-radius: 15px;
         .glass {
+            border-radius: 15px;
             padding: 1rem;
             background-color: rgba(255, 255, 255, 0);
             backdrop-filter: blur(5px);
             height: 428px;
             text-align: center;
+            p {
+                padding-top: 5%;
+            }
         }
     }
     .surveillance {
@@ -77,32 +88,88 @@ footer {
         color: rgb(0, 157, 0);
         padding: 1rem;
         font-size: 20px;
-        width: 33%;
+        width: 25%;
+        border-radius: 15px;
         text-align: center;
+        p {
+            padding-top: 8%;
+        }
     }
     .social {
         background-image: url(./assets/social.jpeg);
         font-family: 'Teko', sans-serif;
         font-weight: 500px;
         font-size: 18px;
-        width: 33%;
+        width: 25%;
+        border-radius: 15px;
         text-align: center;
         .glass {
             padding: 1rem;
             background-color: rgba(255, 255, 255, 0);
             backdrop-filter: blur(10px);
             height: 428px;
+            border-radius: 15px;
+            p {
+                padding-top: 6%;
+            }
         }
     }
     .lost {
         background-color: rgb(165, 165, 165);
         padding: 1rem;
         font-size: larger;
-        width: 33%;
+        width: 25%;
         text-align: center;
+        border-radius: 15px;
+        color: white;
+        p {
+            font-family: 'DM Serif Display', serif;
+            padding-top: 4%;
+        }
     }
     .harmony {
         text-align: center;
-        padding: 1rem;
+        border-radius: 15px;
+        background-image: url(./assets/binary.jpeg);
+        color: white;
+        font-family: 'Tilt Neon', sans-serif;
+        width: 25%;
+        .glass {
+            padding: 1rem;
+            background-color: rgba(255, 255, 255, 0);
+            backdrop-filter: blur(10px);
+            height: 428px;
+            border-radius: 15px;
+            p {
+                padding-top: 15%;
+                font-size: 14px;
+            }
+        }
+    }
+    .heavy {
+        text-align: center;
+        border-radius: 15px;
+        color: white;
+        width: 25%;
+        background-image: url(./assets/glas.jpeg);
+        font-size: 14.6px;
+        font-family: 'Lilita One', sans-serif;
+        .glass {
+            padding: 1rem;
+            background-color: rgba(255, 255, 255, 0.09);
+            backdrop-filter: blur(10px);
+            height: 428px;
+            border-radius: 15px;
+            p {
+                padding-top: 2%;
+            }
+        }
+    }
+}
+.about {
+    display: flex;
+    justify-content: center;
+    h2 {
+        font-size: 30px;
     }
 }

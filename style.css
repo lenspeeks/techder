@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kalam:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Handjet:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
 * {
   margin: 0px;
 }
@@ -23,6 +26,8 @@ header ul {
   justify-content: center;
   list-style: none;
   gap: 3rem;
+  padding: 0;
+  margin: 0;
 }
 header h1 {
   text-align: center;
@@ -62,14 +67,17 @@ footer .glass p {
 .collection {
   display: flex;
   justify-content: space-between;
+  padding: 3rem;
 }
 .collection .climate {
   font-family: "Kalam", cursive;
   background-image: url(./assets/nature.jpeg);
   color: white;
-  width: 33%;
+  width: 25%;
+  border-radius: 15px;
 }
 .collection .climate .glass {
+  border-radius: 15px;
   padding: 1rem;
   background-color: rgba(255, 255, 255, 0);
   -webkit-backdrop-filter: blur(5px);
@@ -77,21 +85,29 @@ footer .glass p {
   height: 428px;
   text-align: center;
 }
+.collection .climate .glass p {
+  padding-top: 5%;
+}
 .collection .surveillance {
   font-family: "Handjet", sans-serif;
   background-color: black;
   color: rgb(0, 157, 0);
   padding: 1rem;
   font-size: 20px;
-  width: 33%;
+  width: 25%;
+  border-radius: 15px;
   text-align: center;
+}
+.collection .surveillance p {
+  padding-top: 8%;
 }
 .collection .social {
   background-image: url(./assets/social.jpeg);
   font-family: "Teko", sans-serif;
   font-weight: 500px;
   font-size: 18px;
-  width: 33%;
+  width: 25%;
+  border-radius: 15px;
   text-align: center;
 }
 .collection .social .glass {
@@ -100,15 +116,69 @@ footer .glass p {
   -webkit-backdrop-filter: blur(10px);
           backdrop-filter: blur(10px);
   height: 428px;
+  border-radius: 15px;
+}
+.collection .social .glass p {
+  padding-top: 6%;
 }
 .collection .lost {
   background-color: rgb(165, 165, 165);
   padding: 1rem;
   font-size: larger;
-  width: 33%;
+  width: 25%;
   text-align: center;
+  border-radius: 15px;
+  color: white;
+}
+.collection .lost p {
+  font-family: "DM Serif Display", serif;
+  padding-top: 4%;
 }
 .collection .harmony {
   text-align: center;
+  border-radius: 15px;
+  background-image: url(./assets/binary.jpeg);
+  color: white;
+  font-family: "Tilt Neon", sans-serif;
+  width: 25%;
+}
+.collection .harmony .glass {
   padding: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  height: 428px;
+  border-radius: 15px;
+}
+.collection .harmony .glass p {
+  padding-top: 15%;
+  font-size: 14px;
+}
+.collection .heavy {
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  width: 25%;
+  background-image: url(./assets/glas.jpeg);
+  font-size: 14.6px;
+  font-family: "Lilita One", sans-serif;
+}
+.collection .heavy .glass {
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.09);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  height: 428px;
+  border-radius: 15px;
+}
+.collection .heavy .glass p {
+  padding-top: 2%;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+.about h2 {
+  font-size: 30px;
 }/*# sourceMappingURL=style.css.map */
