@@ -18,14 +18,6 @@ header {
     background-image: url(./assets/AlvinsBanner.png);
     height: 250px;
     padding: 2rem;
-    ul {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        gap: 3rem;
-        padding: 0;
-        margin: 0;
-    }
     h1 {
         text-align: center;
         padding-top: 7%;
@@ -62,6 +54,8 @@ footer {
 
 .collection {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 3rem;
     .climate {
@@ -167,9 +161,37 @@ footer {
     }
 }
 .about {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding: 3rem;
     h2 {
         font-size: 30px;
+        padding: 2rem;
+    }
+    p {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 400;
+        font-size: large;
+        text-align: left;
+        width: 50%;
+    }
+    span {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 700;
+    }
+    a {
+        text-decoration: none;
+        font-weight: 800;
+        color: cadetblue;
+    }
+}
+.poll {
+    text-align: center;
+    h2 {
+        font-size: 30px;
+        padding: 3rem;
+    }
+    iframe {
+        width: 100%;
+        height: 870px;
     }
 }
