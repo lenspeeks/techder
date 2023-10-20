@@ -209,7 +209,7 @@ footer {
             width: 100%;
             height: fit-content;
             .glass {
-                height: 456px;
+                height: fit-content;
             }
         }
         .surveillance {
@@ -219,10 +219,16 @@ footer {
         .social {
             width: 100%;
             height: fit-content;
+            .glass {
+                height: fit-content;
+            }
         }
         .harmony {
             width: 100%;
             height: fit-content;
+            .glass {
+                height: fit-content;
+            }
         }
         .lost {
             width: 100%;
@@ -232,7 +238,7 @@ footer {
             width: 100%;
             height: fit-content;
             .glass {
-                height: 500%;
+                height: fit-content;
             }
         }
     }

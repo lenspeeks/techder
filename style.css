@@ -220,7 +220,8 @@ footer .glass p {
     height: fit-content;
   }
   .collection .climate .glass {
-    height: 456px;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .collection .surveillance {
     width: 100%;
@@ -232,8 +233,16 @@ footer .glass p {
     height: -moz-fit-content;
     height: fit-content;
   }
+  .collection .social .glass {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
   .collection .harmony {
     width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .collection .harmony .glass {
     height: -moz-fit-content;
     height: fit-content;
   }
@@ -248,7 +257,8 @@ footer .glass p {
     height: fit-content;
   }
   .collection .heavy .glass {
-    height: 500%;
+    height: -moz-fit-content;
+    height: fit-content;
   }
   .about p {
     width: 100%;
