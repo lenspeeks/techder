@@ -219,6 +219,9 @@ footer .glass p {
     height: -moz-fit-content;
     height: fit-content;
   }
+  .collection .climate .glass {
+    height: 456px;
+  }
   .collection .surveillance {
     width: 100%;
     height: -moz-fit-content;
@@ -243,6 +246,9 @@ footer .glass p {
     width: 100%;
     height: -moz-fit-content;
     height: fit-content;
+  }
+  .collection .heavy .glass {
+    height: 500%;
   }
   .about p {
     width: 100%;

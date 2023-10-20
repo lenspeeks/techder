@@ -208,6 +208,9 @@ footer {
         .climate {
             width: 100%;
             height: fit-content;
+            .glass {
+                height: 456px;
+            }
         }
         .surveillance {
             width: 100%;
@@ -228,6 +231,9 @@ footer {
         .heavy {
             width: 100%;
             height: fit-content;
+            .glass {
+                height: 500%;
+            }
         }
     }
     .about {
