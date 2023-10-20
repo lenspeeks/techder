@@ -212,6 +212,7 @@ footer .glass p {
     padding-top: 25%;
   }
   .collection {
+    margin: 2.5rem;
     gap: 2rem;
   }
   .collection .climate {
