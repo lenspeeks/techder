@@ -62,6 +62,7 @@ footer .glass p {
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 3rem;
+  gap: 5rem;
 }
 .collection .climate {
   font-family: "Kalam", cursive;
@@ -204,4 +205,50 @@ footer .glass p {
 .poll iframe {
   width: 100%;
   height: 870px;
+}
+
+@media only screen and (max-width: 600px) {
+  header h1 {
+    padding-top: 25%;
+  }
+  .collection {
+    gap: 1rem;
+  }
+  .collection .climate {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .collection .surveillance {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .collection .social {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .collection .harmony {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .collection .lost {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .collection .heavy {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .about p {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  footer p {
+    vertical-align: middle;
+  }
 }/*# sourceMappingURL=style.css.map */
