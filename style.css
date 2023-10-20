@@ -61,7 +61,7 @@ footer .glass p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 3rem;
+  margin: 2rem;
   gap: 5rem;
 }
 .collection .climate {
