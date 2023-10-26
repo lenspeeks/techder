@@ -40,11 +40,13 @@ header {
   padding: 2rem;
 }
 header h1 {
-  text-align: center;
-  padding-top: 7%;
+  text-align: left;
+  font-size: 70px;
+  padding-top: 4%;
 }
 header h2 {
-  text-align: center;
+  text-align: left;
+  font-size: 40px;
 }
 header a {
   color: black;
