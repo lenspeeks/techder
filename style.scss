@@ -13,6 +13,23 @@
     h2 {
         font-family: 'Barlow Semi Condensed', sans-serif;}
 }
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
 header {
     color: white;
     background-image: url(./assets/AlvinsBanner.png);
@@ -56,9 +73,11 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 3rem;
+    justify-content: space-around;
+    margin: 5rem;
     gap: 5rem;
+    padding-left: none;
+    padding-right: none;
     .climate {
         font-family: 'Kalam', cursive;
         background-image: url(./assets/nature.jpeg);
@@ -163,7 +182,8 @@ footer {
 }
 .about {
     text-align: center;
-    padding: 3rem;
+    margin: 5rem;
+    padding-bottom: 10rem;
     h2 {
         font-size: 30px;
         padding: 2rem;
@@ -171,7 +191,7 @@ footer {
     p {
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-weight: 400;
-        font-size: large;
+        font-size: larger;
         text-align: left;
         width: 50%;
     }
