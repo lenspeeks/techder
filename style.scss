@@ -222,7 +222,7 @@ footer {
 @media only screen and (max-width: 600px) {
     header {
         h1 {
-            padding-top: 25%;
+            padding-top: 7%;
         }
     }
     .collection {
@@ -266,6 +266,7 @@ footer {
         }
     }
     .about {
+        margin: 3rem;
         p {
             width: 100%;
             padding-bottom: 40px;

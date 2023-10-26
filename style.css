@@ -232,7 +232,7 @@ footer .glass p {
 
 @media only screen and (max-width: 600px) {
   header h1 {
-    padding-top: 25%;
+    padding-top: 7%;
   }
   .collection {
     margin: 2.5rem;
@@ -283,6 +283,9 @@ footer .glass p {
   .collection .heavy .glass {
     height: -moz-fit-content;
     height: fit-content;
+  }
+  .about {
+    margin: 3rem;
   }
   .about p {
     width: 100%;
